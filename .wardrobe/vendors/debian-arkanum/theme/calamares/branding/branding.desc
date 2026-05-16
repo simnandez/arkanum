@@ -1,0 +1,31 @@
+# branding.desc on Debian penguins-eggs 26.1.21
+---
+componentName: eggs
+images:
+  productIcon: debian-workstation-logo.png
+  productLogo: debian-workstation-logo.png
+  productWelcome: welcome.png
+slideshow: show.qml
+slideshowAPI: 1
+strings:
+  bootloaderEntryName: Debian
+  knownIssuesUrl: https://github.com/pieroproietti/penguins-eggs/issues/
+  productName: DEBIAN 13 WORKSTATION EDITION
+  productUrl: https://www.debian.org/
+  releaseNotesUrl: https://bugs.debian.org/
+  shortProductName: debian 13 WORKSTATION
+  shortVersion: 2026.05.01
+  shortVersionedName: DEBIAN 13 ARKANO EDITION
+  supportUrl: https://www.debian.org/support
+  version: '2026-05-01'
+  versionedName: debian 13 workstatin edition
+style:
+  SidebarBackground: '#292F34'
+  sidebarBackground: '#292F34'
+  SidebarBackgroundCurrent: '#002142'
+  sidebarBackgroundCurrent: '#002142'
+  SidebarText: '#FFFFFF'
+  sidebarText: '#FFFFFF'
+  SidebarTextCurrent: '#292F34'
+  sidebarTextCurrent: '#292F34'
+welcomeStyleCalamares: true

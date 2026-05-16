@@ -1,0 +1,17 @@
+[SddmGreeterTheme]
+Name=Angel Dark
+Description=Debian Angel Dark
+Author=KDE Visual Design Group and Debian artists
+Copyright=(c) 2014, David Edmundson
+License=CC-BY-SA
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/sddm/sddm
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Theme-Id=breeze-debian
+Theme-API=2.0
+QtVersion=6
