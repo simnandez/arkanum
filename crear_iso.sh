@@ -51,7 +51,20 @@ sudo chmod -R 755 /etc/skel
 
 # 5. Generación de la ISO
 echo "--- Iniciando producción de la ISO ---"
-# --release para que sea instalable, --theme para la estética
-sudo eggs produce --release --noicon --theme=.wardrobe/vendors/debian-arkanum
+
+# Preguntar al usuario si desea renovar el yolk
+echo ""
+read -p "¿Deseas renovar el yolk en esta compilación? (s/N): " respuesta
+
+# Convertir la respuesta a minúsculas para evitar problemas
+respuesta=$(echo "$respuesta" | tr '[:upper:]' '[:lower:]')
+
+if [ "$respuesta" = "s" ] || [ "$respuesta" = "si" ]; then
+    echo "Generando ISO incluyendo la renovación del yolk..."
+    sudo eggs produce --release --noicon --yolk --theme=.wardrobe/vendors/debian-arkanum
+else
+    echo "Generando ISO de forma sin renovar yolk..."
+    sudo eggs produce --release --noicon --theme=.wardrobe/vendors/debian-arkanum
+fi
 
 echo "--- Proceso finalizado con éxito ---"
