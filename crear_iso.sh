@@ -50,6 +50,9 @@ sudo chown -R root:root /etc/skel
 sudo chmod -R 755 /etc/skel
 
 # 5. Generación de la ISO
+echo "--- Limpiando residuos de compilaciones anteriores ---"
+sudo eggs clean
+
 echo "--- Iniciando producción de la ISO ---"
 
 # Preguntar al usuario si desea renovar el yolk
