@@ -2,23 +2,23 @@
 ---
 componentName: eggs
 images:
-  productIcon: debian-workstation-logo.png
-  productLogo: debian-workstation-logo.png
+  productIcon: debian-arkanum-logo.png
+  productLogo: debian-arkanum-logo.png
   productWelcome: welcome.png
 slideshow: show.qml
 slideshowAPI: 1
 strings:
   bootloaderEntryName: Debian
   knownIssuesUrl: https://github.com/pieroproietti/penguins-eggs/issues/
-  productName: DEBIAN 13 WORKSTATION EDITION
+  productName: DEBIAN 13 ARKANUM EDITION
   productUrl: https://www.debian.org/
   releaseNotesUrl: https://bugs.debian.org/
-  shortProductName: debian 13 WORKSTATION
+  shortProductName: debian 13 ARKANUM
   shortVersion: 2026.05.01
-  shortVersionedName: DEBIAN 13 ARKANO EDITION
+  shortVersionedName: DEBIAN 13 ARKANUM EDITION
   supportUrl: https://www.debian.org/support
   version: '2026-05-01'
-  versionedName: debian 13 workstatin edition
+  versionedName: debian 13 arkanum edition
 style:
   SidebarBackground: '#292F34'
   sidebarBackground: '#292F34'
