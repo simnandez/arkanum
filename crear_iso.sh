@@ -51,7 +51,7 @@ sudo chmod -R 755 /etc/skel
 
 # 5. Generación de la ISO
 echo "--- Limpiando residuos de compilaciones anteriores ---"
-sudo eggs clean
+sudo eggs tools clean
 
 echo "--- Iniciando producción de la ISO ---"
 
